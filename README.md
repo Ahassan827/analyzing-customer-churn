@@ -12,9 +12,13 @@ Before the analysis, let's look at the numbers. They tell a story of a company w
 🎯 KPI	
 
 . Total Customers	6,687	
-. Churned Customers	1,796	
+
+. Churned Customers	1,796
+
 . Overall Churn Rate	26.86%
+
 . Avg. Customer Service Calls	0.92	
+
 . Avg. Extra International Charges	$33.64
 
 🔍 Key Insights from the Analysis:
