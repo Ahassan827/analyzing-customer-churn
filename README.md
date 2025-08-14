@@ -50,7 +50,10 @@ Customers on monthly contracts using Direct Debit are the most at-risk segment, 
 A high churn rate of 33.57% was observed among customers with an "unlimited data plan" who consume a moderate amount of data (5-10 GB).
 
 This suggests a potential disconnect between the perceived value of the "unlimited" plan and the actual service delivered (e.g., speed throttling, hidden limitations), leading to customer frustration.
-🛠️ Actionable Recommendations: From Insights to Impact
+
+🛠️ Actionable Recommendations:
+
+From Insights to Impact
 Here’s a strategic roadmap to turn these insights into business results.
 
 💰 Re-evaluate Pricing & Value:
