@@ -9,7 +9,48 @@ This project analyzes customer churn data to identify key factors and provide ac
 Our Key Performance Indicators
 Before the analysis, let's look at the numbers. They tell a story of a company with a significant retention challenge.
 
-🎯 KPI	
+
+
+# 📊 Churn Analysis — Data Notes
+
+---
+
+## 🧹 Data Cleaning
+- Filled missing values with **"N/A"**  
+- Removed duplicates  
+- Standardized data types (numeric, categorical, date)   
+
+---
+
+## 📏 Measures
+
+| Measure                          | Description                                    |
+|----------------------------------|------------------------------------------------|
+| Avg Customer Service Calls       | Average number of service calls per customer   |
+| Avg Extra Data Charges           | Average additional data charges per customer   |
+| Avg Extra International Charges  | Average international charges per customer     |
+| Churn Rate %                     | % of churned customers                        |
+| Number Of Churned Customers      | Total churned customers                       |
+| Number Of Customers              | Total customers (based on filters)            |
+| Number Of Unique Customers       | Distinct count of customers                   |
+
+---
+
+## 📂 Added Columns
+
+| Column              |  Purpose                                  |
+|---------------------|-------------------------------------------|
+| Churned             |  Indicates if customer churned (1,0)      |
+| Contract category   |  Contract type (Monthly, Yearly)          |
+| Demographics        | Age  ( Under 30 , Senior , Other          |
+| Group consumption   | Usage/consumption in group or family plan |
+| Age bins            | Age grouped into ranges for analysis      |
+
+
+
+---
+
+## 🎯 KPI	
 
 . Total Customers	6,687	
 
@@ -21,7 +62,10 @@ Before the analysis, let's look at the numbers. They tell a story of a company w
 
 . Avg. Extra International Charges	$33.64
 
-🔍 Key Insights from the Analysis:
+
+---
+
+## 🔍 Key Insights from the Analysis:
 
 A deep-dive into the data revealed several critical insights into customer behavior and churn drivers.
 
@@ -51,7 +95,10 @@ A high churn rate of 33.57% was observed among customers with an "unlimited data
 
 This suggests a potential disconnect between the perceived value of the "unlimited" plan and the actual service delivered (e.g., speed throttling, hidden limitations), leading to customer frustration.
 
-🛠️ Actionable Recommendations:
+
+---
+
+## 🛠️ Actionable Recommendations:
 
 From Insights to Impact
 Here’s a strategic roadmap to turn these insights into business results.
@@ -80,9 +127,18 @@ Utilize the geographical analysis to identify and address specific issues in sta
 
 
 
+<img width="1150" height="736" alt="1 1" src="https://github.com/user-attachments/assets/dc282bb7-4f1d-46e1-9e0f-16e1296611c3" />
+
+
+<img width="1162" height="655" alt="1 2" src="https://github.com/user-attachments/assets/7f1157c8-5c26-46c8-acce-b6f9c90328a8" />
+
+
+<img width="1167" height="657" alt="1 3" src="https://github.com/user-attachments/assets/e75af3cd-99d9-495a-8103-5ff4c3cd0ad7" />
+
+
+<img width="1172" height="656" alt="1 4" src="https://github.com/user-attachments/assets/661de7d6-f68c-473d-a785-2bb02ddd3a53" />
 
 
 
 
 
-This analysis provides a clear, data-backed guide to not just reduce churn, but to build stronger, more lasting customer relationships.
