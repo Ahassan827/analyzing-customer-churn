@@ -1,4 +1,4 @@
-# analyzing-customer-churn
+# analyzing-customer-churn (Power bi)
 
 📈Project Overview:
 
@@ -15,7 +15,7 @@ Before the analysis, let's look at the numbers. They tell a story of a company w
 
 ---
 
-## 🧹 Data Cleaning
+## 🧹 Data Cleaning (Power Query)
 - Filled missing values with **"N/A"**  
 - Removed duplicates  
 - Standardized data types (numeric, categorical, date)   
