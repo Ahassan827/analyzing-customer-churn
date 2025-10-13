@@ -11,7 +11,12 @@ Before the analysis, let's look at the numbers. They tell a story of a company w
 
 
 
-# 📊 Churn Analysis — Data Notes
+# 📊 Dataset Overview
+
+- Number of rows : 6687
+- Number of columns: 29
+- Data Source: Datacamp
+- Key Columns: customer ID , Gender , Age , Contract Type , Payment Method , Monthly Charges, Total Charge , Churn
 
 ---
 
@@ -95,6 +100,13 @@ A high churn rate of 33.57% was observed among customers with an "unlimited data
 
 This suggests a potential disconnect between the perceived value of the "unlimited" plan and the actual service delivered (e.g., speed throttling, hidden limitations), leading to customer frustration.
 
+5- Geographical Insight
+
+California (CA) shows the highest churn rate among all states.
+
+Interestingly, CA also records the lowest average customer service interaction rate, suggesting low engagement or dissatisfaction resolution, which may be intensifying churn in this region.
+
+
 
 ---
 
@@ -121,9 +133,11 @@ Offer significant discounts or perks to encourage customers to switch from month
 
 Be transparent about the true value and any limitations of "unlimited" data plans to build trust and manage expectations.
 
-📍 Localize Our Strategy:
+🌍 Localize Our Strategy
 
-Utilize the geographical analysis to identify and address specific issues in states with the highest churn rates.
+Prioritize California by implementing local retention initiatives, improving customer support accessibility, and increasing communication touchpoints.
+
+Continue to use geographical analysis to identify and resolve region-specific issues in other high-churn areas.
 
 
 
