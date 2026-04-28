@@ -72,73 +72,150 @@ Before the analysis, let's look at the numbers. They tell a story of a company w
 
 ## 🔍 Key Insights from the Analysis:
 
-A deep-dive into the data revealed several critical insights into customer behavior and churn drivers.
 
-1. Pricing and Value Proposition are the Primary Churn Drivers:
+## Insight 1 — Pricing is the #1 Churn Driver :
 
-The top two reasons for churn were identified as "Competitor made a better offer" and "Price too high".
 
-Churn is directly correlated with higher monthly charges, especially for new customers.
+The top stated reasons for churn were competitors offering better deals and prices being too high. Churn correlates directly with higher monthly charges, particularly among first-year customers.
 
-This indicates a gap in the company's value proposition and competitive pricing.
 
-2. Churn is Segment-Specific and Varies with Customer Tenure:
-
-New Customers (Age 20-40): This segment shows a high churn rate in their first year (1-12 months), but their loyalty increases significantly afterward, with churn dropping to near zero for long-term customers.
-
-Senior Customers (Age 65+): This group exhibits a consistently high churn rate across all account tenures, suggesting a persistent, long-term issue related to service complexity or support.
-
-3. Contract Type and Payment Method are Critical Indicators of Churn:
-
-Monthly contracts have a significantly higher churn rate compared to yearly contracts.
-
-Customers on monthly contracts using Direct Debit are the most at-risk segment, showing a churn rate of 53.90% and higher average customer service calls, pointing to potential billing or service issues.
-
-4. Data Plan Performance is a Hidden Churn Factor:
-
-A high churn rate of 33.57% was observed among customers with an "unlimited data plan" who consume a moderate amount of data (5-10 GB).
-
-This suggests a potential disconnect between the perceived value of the "unlimited" plan and the actual service delivered (e.g., speed throttling, hidden limitations), leading to customer frustration.
-
-5- Geographical Insight
-
-California (CA) shows the highest churn rate among all states.
-
-Interestingly, CA also records the lowest average customer service interaction rate, suggesting low engagement or dissatisfaction resolution, which may be intensifying churn in this region.
+So what? This is not just a pricing problem — it's a value perception problem. Customers aren't saying the service is bad; they're saying the price doesn't feel worth it. The fix is either adjusting price or better communicating value — not necessarily changing the product itself.
+⚠️ Limitation: The largest single category in the churn reasons chart is N/A — meaning the majority of churned customers left without a recorded reason. The pricing insight is valid but represents only a subset of churned customers, not the full picture.
 
 
 
----
+##  Insight 2 — Churn Behaves Differently Across Age Segments :
+
+
+Young Customers (20–40): Churn is high in months 1–12, then drops sharply. These customers are testing the service — if they survive year one, they become loyal long-term customers.
+Senior Customers (65+): Churn remains consistently high regardless of tenure. This is a chronic, ongoing issue likely tied to service complexity or inadequate support.
+
+
+So what? These two segments need completely different solutions. One needs early intervention in the first year; the other needs a long-term structural fix in how support is delivered.
+
+
+
+## Insight 3 — Monthly Contract + Direct Debit = Highest Risk Segment:
+
+
+Customers on monthly contracts using Direct Debit show a 53.90% churn rate and higher-than-average service calls.
+
+
+So what? This segment experiences ongoing friction — billing issues or unresolved complaints that accumulate until the customer decides to leave. This is the most actionable segment nationally because it is clearly identifiable and shows behavioral warning signals before churn actually happens.
+
+
+## Insight 4 — Unlimited Data Plans are Misleading Moderate Users :
+
+
+Customers on unlimited plans consuming 5–10 GB show a 33.57% churn rate — higher than heavy users who clearly get value from the plan.
+
+
+So what? These customers are likely experiencing speed throttling or hidden limitations they did not expect from an "unlimited" plan. The issue is a trust gap, not a pricing gap. Greater transparency about plan limitations would likely reduce churn in this segment without any pricing change.
+
+
+## Insight 5 — Group Plans are a Hidden Retention Tool :
+
+
+Customers not on a group or family plan pay approximately double the monthly charge and show a churn rate nearly 3x higher compared to customers on group plans.
+
+
+So what? Group plans are not just a pricing tier — they are one of the strongest retention mechanisms in the data. Customers with shared plans have lower charges per person and higher switching costs, making them significantly less likely to leave. Actively promoting group plan upgrades, especially to solo monthly contract customers, could simultaneously reduce churn and increase account value.
+
+
+## Insight 6 — California Deep Dive :
+
+
+California shows a 63.24% churn rate — 43 out of 68 customers lost. After filtering the dashboard specifically on California, three compounding problems were identified:
+
+
+- Problem 1 — Monthly Contracts are an Open Exit Door:
+
+Monthly + Paper Check = 100% churn
+
+Monthly + Direct Debit = 94% churn
+
+Monthly + Credit Card = 57% churn
+
+Once a customer switches to a yearly contract, the numbers improve significantly across all payment methods.
+
+
+- Problem 2 — International Charges are Burning Customers:
+
+The average extra international charge in California is $36.19 on top of the base monthly bill. Given California's high demographic diversity and international activity, customers there are disproportionately affected by these additional costs compared to other states.
+
+
+- Problem 3 — Customers Without Unlimited Data Leave Immediately:
+
+Customers consuming 5–10 GB without an unlimited plan show a 100% churn rate in California. These customers are being surprised by unexpected extra data charges, which triggers an immediate decision to leave.
+
+
+So what? California's problem is not a location-specific issue — it is a compounding combination of monthly contracts, unexpected billing, and uncompetitive international pricing. Competitors are present and ready to capitalize on every moment of customer frustration.
+
+
+
 
 ## 🛠️ Actionable Recommendations:
 
-From Insights to Impact
-Here’s a strategic roadmap to turn these insights into business results.
+🔴 Priority 1 — California: Convert Monthly to Yearly Contracts (Quick Win)
 
-💰 Re-evaluate Pricing & Value:
 
-Conduct a competitive price analysis.
+The problem is clear and the solution is specific — the monthly contract is the primary driver of California's extreme churn rate.
 
-Create targeted promotions to make our offers more attractive, especially for new customers.
 
-🛡️ Protect Our Most At-Risk Customers:
+Action: A targeted campaign for California's monthly contract customers offering a meaningful discount to switch to a yearly contract. In parallel, review international charge pricing specifically for the California market.
 
-For New & Young Customers: Launch a "First-Year Engagement" program to proactively check on satisfaction and reinforce our value.
 
-For Senior Customers: Develop a specialized, simplified support channel and offer clearer billing statements to solve their ongoing challenges.
 
-🤝 Incentivize Loyalty:
 
-Offer significant discounts or perks to encourage customers to switch from monthly to more stable, yearly contracts.
+🟠 Priority 2 — Target Monthly/Direct Debit Segment Nationally
 
-Be transparent about the true value and any limitations of "unlimited" data plans to build trust and manage expectations.
 
-🌍 Localize Our Strategy
+The same logic applies at a company-wide level — this segment has the highest churn rate and is the most identifiable and actionable group in the entire dataset.
 
-Prioritize California by implementing local retention initiatives, improving customer support accessibility, and increasing communication touchpoints.
 
-Continue to use geographical analysis to identify and resolve region-specific issues in other high-churn areas.
+Action: Proactive outreach campaign offering a clear incentive to switch from monthly to yearly contracts.
+Estimated Impact: If 10% of this segment converts to yearly contracts, that is approximately 85 customers retained — and this is a conservative estimate based on available data.
 
+
+
+
+🟡 Priority 3 — First-Year Engagement Program for Young Customers
+
+
+High churn in months 1–12 is a known and consistent pattern. The solution is proactive, not reactive.
+
+
+Action: Automated check-ins at 30, 60, and 90 days. A loyalty reward at the 6-month mark. Reinforce value before the customer starts comparing competitors.
+
+
+🟢 Priority 4 — Fix Unlimited Plan Communication
+
+
+No pricing change is needed here — only transparency.
+
+
+Action: Clearly state data thresholds and speed policies in subscription materials and onboarding flows. Send in-app notifications when a customer approaches throttling limits.
+
+
+
+
+🔵 Priority 5 — Senior Customer Dedicated Support Channel
+
+
+This is the longest fix but addresses a persistent, structural problem that will not resolve itself.
+
+
+Action: A dedicated support line for senior customers with simplified billing statements and clearer, more patient communication.
+
+
+
+
+⚠️ Analysis Limitations
+
+
+Churn Reasons Data Gap:
+The largest category in the churn reasons chart is N/A — meaning the majority of customers who left did not have a recorded exit reason. This weakens confidence in some insights, particularly around pricing as the primary churn driver.
+Recommendation: Implement a mandatory exit survey or cancellation flow that captures the churn reason before an account is closed. This single operational change would dramatically improve the quality of any future churn analysis.
 
 
 <img width="1150" height="736" alt="1 1" src="https://github.com/user-attachments/assets/dc282bb7-4f1d-46e1-9e0f-16e1296611c3" />
