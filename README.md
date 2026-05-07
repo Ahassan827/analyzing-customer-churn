@@ -4,10 +4,6 @@
 
 This project analyzes customer churn data to identify key factors and provide actionable insights for a telecommunications company. The analysis was conducted using a comprehensive Power BI dashboard, focusing on customer demographics, service usage, and payment behavior.
 
-## 🚀 The Big Picture:
-
-Our Key Performance Indicators
-Before the analysis, let's look at the numbers. They tell a story of a company with a significant retention challenge.
 
 
 
@@ -23,7 +19,7 @@ Before the analysis, let's look at the numbers. They tell a story of a company w
 ## 🧹 Data Cleaning (Power Query)
 - Filled missing values with **"N/A"**  
 - Removed duplicates  
-- Standardized data types (numeric, categorical, date)   
+- Standardized data types (numeric, categorical, date) 
 
 ---
 
